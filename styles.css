@@ -3,6 +3,43 @@ https://jsfiddle.net/1fzgah3n/
 
 
 Menu Code for Mobile First Style (minus the bits you know how to do):  */
+html {
+    background-color:#020659;
+  }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+h1 {
+    font-size:1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+    color:#590242;
+}
+#trending{
+    color:#590242;
+}
+#Playlists div{
+    color: white;
+}
+#Curated-Playlists div {
+    color: white;
+}
+p, dl, dd {
+    font-size: 1em;
+    
+}
+footer p {
+    font-size: .75em;
+    color:#590242;
+}
+header, nav {
+    color: white;
+}
+
+@media screen and (min-width:375px) {
+    
+}
 
 ul {
     overflow: hidden;
