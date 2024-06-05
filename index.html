@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MuzakMaker</title>
     <link rel="stylesheet" href="styles.css">
+    <title>MuzakMaker</title>
 </head>
 <body>
     <header>
@@ -12,13 +12,13 @@
         <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
     </header>
     <nav>
-        <input type="checkbox" id="menu">
-        <label for="menu"><span></span></label>
+        <input type="checkbox" id="dropdown">
+        <label for="dropdown"><span></span></label>
         <ul>
-            <li><a href="#MuzakMaker">MuzakMaker</a></li>
-            <li><a href="#TrendingSongs">Trending Songs</a></li>
-            <li><a href="#Yourplaylists">Your playlists</a></li>
-            <li><a href="#CuratedPlaylists">Curated Playlists</a></li>
+            <li><a href="#Home">MuzakMaker</a></li>
+            <li><a href="#trending">Trending Songs</a></li>
+            <li><a href="#playlists">Your playlists</a></li>
+            <li><a href="#curatedplaylists">Curated Playlists</a></li>
             <li><a href="#user"><img src="images/duke-silver.png" alt="duke-silver.png"></a></li>
         </ul>
     </nav>
@@ -35,8 +35,9 @@
                         </dl>
                     </div>
                     <img src="images/aloma-cover.png" alt="aloma-cover.png">
-                    <audio controls>
-                        <source src="audio/aloma.mp3">
+                    <audio 
+                    controls
+                    src="audio/aloma.mp3">
                     </audio>
                 </section>
                 <section>
@@ -92,10 +93,11 @@
                     </audio>
                 </section>
             </div> 
-            <div class="more-trending">More trending</div>     
+            <button class="more-trending">More trending</button>
+            </div>     
         </section> 
     
-        <section id="Playlists">
+        <section id="playlists">
             <h2>Your Playlists</h2>
                 <div class="scroll">
                     <div>
@@ -138,12 +140,12 @@
                         </dl>
                     </div>
                 </div>
-            <div class="All-your-playlists">All your playlists</div>
         </section>
+        <button class="All-your-playlists">All your playlists</button>
 
-        <section id="Curated-Playlists">
+        <section id="curated-playlists">
             <h2>Curated Playlists</h2>
-                <div class="scroll"></div>
+                <div class="scroll">
                     <div>
                         <img src="images/boozy-brunch-cover.png" alt="boozy-brunch-cover.png"> 
                         <dl>
@@ -182,8 +184,9 @@
                             <dd>The greatest collection of your sax favorites.</dd>
                         </dl>
                     </div>
-                <div class="More-curated">More curated</div>
+                </div>
         </section>
+        <button class="More-curated">More curated</button>
     </main>
     <footer>
     <p>Copyright 2022 Smooth Jazz</p>
